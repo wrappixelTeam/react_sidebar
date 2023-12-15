@@ -1,0 +1,33 @@
+.left-sidebar{
+    width: 247px;
+}
+
+.sidebar-link{
+    .icon{
+        color: $light-indigo;
+    }
+    &:hover{
+        .icon{
+            color: $primary-text-emphasis;
+        }
+    }
+}
+
+.simplebar-wrapper{
+    height: 100vh;
+}
+
+.unlimited{
+    border-radius: 16px;
+    overflow: hidden;
+
+    .unlimited-title{
+        h2{
+            padding: 24px 0px 0px 18px;
+        }
+        p{
+            color: #ECAEF8;
+            padding: 0px 0px 24px 18px;
+        }
+    }
+}
